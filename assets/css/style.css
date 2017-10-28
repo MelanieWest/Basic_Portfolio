@@ -33,7 +33,7 @@ nav {
     text-align: right;
 }
 
-a{
+.pg-link{
     position: relative;
     float: right;
     padding: 10px;
