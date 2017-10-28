@@ -1,86 +1,184 @@
 body {
-    top: 0px;
-    margin: 0px;
-    background-color: lightcyan;
-    word-spacing: 150%;
+         top: 0px;
+         margin: 0px;
+         background-image: url("../images/background.png");
+         background-size: 1200px; 600px;
+         background-repeat: repeat-y;
 }
 
-header {
+.strip {
+    width: 100%;
+    background-color: green;
+    height: 60px;
+}
+header{
+
+}
+
+form {
+    position: absolute;
+    height: 280px;
+    width: 350px;
+    top: 120px;
+    left: 120px;
+    border: 5px solid green;
+    margin: 30px; 
+    background-color: burlywood; 
+    text-align: center;
+}
+
+nav {
+    font-size: 18px;
+    color: green;
+    text-align: right;
+}
+
+a{
+    position: relative;
+    float: right;
+    padding: 10px;
+    color: bisque;
+}
+
+a:link {
+    text-decoration: none;;
+}
+
+#logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
     font-size: 40px;
     color: green;
+    border: 5px solid green;
     background-color: bisque;
-    width: 300px; 
-    padding: 20px;
+    width: 300px;
+    height: 60px; 
 }
 
-.classy {
-    background-color: lightcyan;
+.intro {
     width: 600px;
     float: left;
-    border: 3px green;
 }
 
 h1 {
     font-size: 24px;
-    padding: 20px;
+    padding: 50px;
 }
+
 #self {
     position: absolute;
     height: 250px;
-    left: 20px;
-    border: 5px burlywood;
-    margin: 5px;
+    top: 120px;
+    left: 30px;
+    border: 5px solid burlywood;
+    margin: 30px;
 }
 
-p {
+.center {
     position: absolute;
     left: 300px;
     font-size: 22px;
     width: 35%;
     padding: 50px;
-    word-spacing: 150%
 }
+
+.leftbox{
+    position: relative;
+    float:left;
+    top: 50px;
+    left: 80px;
+    height: 380px;
+    width: 240px;
+    background-color: burlywood;
+    border: 3px solid green;
+}
+.midbox{
+    position: relative;
+    float:left;
+    top: 50px;
+    left: 140px;
+    height: 380px;
+    width: 240px;
+    background-color: burlywood;
+    border: 3px solid green;
+}
+
+.rightbox{
+    position: relative;
+    float: left;
+    top: 50px;
+    left: 200px;
+    height: 380px;
+    width: 240px;
+    background-color: burlywood;
+    border: 3px solid green;
+}
+
+.topbox{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 160px;
+    width: 200px;
+    background-color: orange;
+    border: 1px solid green;
+}
+
+.bottombox{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    height: 160px;
+    width: 200px;    
+    background-color: orange;
+    border: 1px solid green;
+} 
 
 .connections {
     position: absolute;
     text-align: center;
+    top: 120px;
     right: 50px;
     width: 30%;
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
     background-color: burlywood;
+    border: 5px solid green;
 }
 
 #cgh {
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 100px;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 #cli {
   position: absolute;
-  left: 90px;
+  left: 70px;
   top: 100px;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 #cso {
   position: absolute;
-  left: 170px;
+  left: 120px;
   top: 100px;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 footer {
     position: absolute;
     bottom: 0px;
     background-color: green;
-    color: white;
+    color: bisque;
     text-align: center;
+    padding: 10px;
     height: 40px;
     width: 100%; 
 }
+
